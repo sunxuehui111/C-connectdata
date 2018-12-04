@@ -34,7 +34,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	{
 
 		//对SQL语句进行操作
-		pRst = pMyConnect->Execute("select * from gendat",NULL,adCmdText);//执行SQL语句
+		pRst = pMyConnect->Execute("select * from sheet1",NULL,adCmdText);//执行SQL语句
 
 		//对SQL存储过程进行操作
 
